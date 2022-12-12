@@ -1,0 +1,306 @@
+.button {
+    position: absolute;
+    margin-top: 660px;
+    margin-left: 280px;
+    width: 210px;
+    height: 55px;
+    background-color: #5fc96f;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-add {
+    margin-top: 16px;
+    width: 84px;
+    height: 34px;
+    background-color: #5fc96f;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-clicked {
+    position: absolute;
+    margin-top: 660px;
+    margin-left: 280px;
+    width: 210px;
+    height: 55px;
+    background-color: #5fc96f;
+    border-radius: 5px;
+    font-size: 13px;
+    opacity: 50%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:hover {
+    opacity: 75%;
+}
+
+.webcam {
+    box-shadow: 0 0 100px black;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 80px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.webcam-shadow {
+    box-shadow: 0 0 100px black;
+    position: absolute;
+    width: 640px;
+    height: 480px;
+    margin-top: 80px;
+    margin-left: 80px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: black;
+    opacity: 40%;
+    z-index: 1;
+}
+
+.loading-login {
+    position: absolute;
+    margin-top: 318px;
+    margin-left: 384px;
+    z-index: 1;
+}
+
+.loading-students {
+    position: absolute;
+    margin-top: 144px;
+    margin-left: 174px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #141414;
+}
+
+.container {
+    margin-top: 44px;
+    margin-left: 44px;
+    width: 380px;
+    height: 550px;
+    background-color: #1b1b1b;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.all-container {
+    margin-top: 44px;
+    margin-left: 44px;
+    width: 380px;
+    height: 550px;
+    background-color: #1b1b1b;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.top {
+    display: flex;
+    width: 380px;
+    height: 60px;
+    background-color: #5fc96f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.all-top {
+    display: flex;
+    width: 380px;
+    height: 60px;
+    background-color: #5fc96f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top h1{
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.all-top h1{
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.absents {
+    display: block;
+    margin-top: 25px;
+    width: 379px;
+    height: 420px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.all-users {
+    display: block;
+    margin-top: 25px;
+    width: 379px;
+    height: 398px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.all-user {
+    display: inline-flex;
+    width: 270px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom: 0.3px solid #000000;
+}
+
+.user {
+    display: inline-flex;
+    width: 270px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom: 0.3px solid #000000;
+}
+
+.img {
+    width: 48px;
+    height: 48px;
+    margin-left: 15px;
+    aspect-ratio: 1;
+}
+
+.all-img {
+    width: 48px;
+    height: 48px;
+    margin-left: 15px;
+    aspect-ratio: 1;
+}
+
+.name {
+    margin-top: 4px;
+    color: #ededed;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.all-name {
+    margin-top: 4px;
+    color: #ededed;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.classroom {
+    color: white;
+    margin-top: -10px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.all-classroom {
+    color: white;
+    margin-top: -10px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #282828;
+    border-radius: 20px;
+}
+
+.information {
+    margin-left: 25px;
+    width: 200px;
+}
+
+.all-information {
+    margin-left: 25px;
+    width: 200px;
+}
+
+#delete{
+    margin-left: -24px;
+    margin-top: 14px;
+    font-size: 18px;
+    color: rgb(244, 96, 96);
+}
+
+.add-user {
+    float: right;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containers{
+    display: inline-flex;
+    position: absolute;
+    height: 800px;
+    margin-left: 900px;
+    margin-top: 84px;
+    width: 900px;
+}
+
+.add-user{
+    transition: 0.4s;
+    margin-right: 14px;
+    background-color: #5fc96f;
+    border-radius: 50%;
+}
+
+.add-user ion-icon{
+    font-size: 24px;
+}
+
+.add-user:hover{
+    transition: 0.4s;
+    border-radius: 40%;
+}
+
+.add-user-panel{
+    display: none;
+    background-color: #1b1b1b;
+    margin-left: 504px;
+    margin-top: 644px;
+    position: absolute;
+    border-radius: 10px;
+    height: 64px;
+    width: 314px;
+}
+
+.add-user-panel input{
+    color: white;
+    margin-left: 14px;
+    margin-top: 14px;
+    height: 34px;
+    width: 184px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}

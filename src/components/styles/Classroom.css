@@ -1,0 +1,16 @@
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.select {
+    width: 210px;
+    height: 6vh;
+    background-color: #5fc96f;
+    border-radius: 5px;
+    font-size: 13px;
+    outline: none;
+    font-family: 'Roboto Mono', monospace;
+}
