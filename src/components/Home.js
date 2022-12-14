@@ -93,13 +93,23 @@ export const Home = () => {
 					<div className="absents">
 						{
 							absents.map(absent => (
-								<div className="user">
-									<img src="user.png" className="img" />
-									<div className="information">
-										<h1 className="name">{absent}</h1>
-										<h2 className="classroom">{window.localStorage.getItem('classroom')}</h2>
+								absent.presence ? (
+									<div className="user">
+										<img src="user.png" className="img" />
+										<div className="information">
+											<h1 className="name">{absent.name}</h1>
+											<h2 className="classroom">{window.localStorage.getItem('classroom')}</h2>
+										</div>
 									</div>
-								</div>
+								):(
+									<div className="user">
+										<img src="useruseruser.png" className="img" />
+										<div className="information">
+											<h1 className="name">{absent.name}</h1>
+											<h2 className="classroom">{window.localStorage.getItem('classroom')}</h2>
+										</div>
+									</div>
+								)
 							))
 						}
 					</div>
